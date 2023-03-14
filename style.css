@@ -155,7 +155,20 @@ body {
     margin-top: 5%;
     text-align: center;
 }
-
+@media screen and (max-width: 820px) {
+    .headLine{
+        height: auto;
+    }
+    #thisImg{
+        height: 20rem;
+    }
+    .testimonials1 {
+        height: auto;
+    }
+    .processBox{
+        height: auto;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .headLine {
