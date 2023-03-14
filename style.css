@@ -1,0 +1,252 @@
+body {
+    padding: 10px;
+}
+
+
+.headLine {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid gray;
+    height: 70vh;
+}
+
+.firstContent {
+    padding: 20px;
+}
+
+#thisLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thisImg {
+    height: 60vh;
+}
+
+.logoBar {
+    align-items: center;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.brandLogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+.brandLogo img {
+    height: 10rem;
+    border-radius: 10px;
+}
+
+
+.testimonials {
+    border: 1px solid gray;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.testimonials1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.testimonials2 {
+   
+    margin: 10px;
+    padding: 10px;
+}
+
+.mediaLogo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.mediaLogo img {
+    height: 8rem;
+}
+
+.socialLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureBenefits img {
+    height: 10rem;
+}
+
+.featureBenefits h4, p {
+    text-align: center;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.featuresContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.process1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.processBox {
+    height: 50vh;
+    width: 40vw;
+    padding: 2rem;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control {
+    width: 35vw;
+    margin: 10px;
+}
+
+.form label {
+    margin-left: 5rem;
+}
+
+.textArea {
+    height: 10ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#exampleTextarea {
+    width: 46.5rem;
+}
+
+.checkBox {
+    margin-left: 10%;
+}
+
+
+.formInformation h1 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .headLine {
+        font-size: .7rem;
+    }
+
+    #thisImg {
+        height: 10rem;
+    }
+
+    .headLine {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .headLine h4 {
+        font-size: .8rem;
+    }
+
+    .brandLogo img {
+        height: 4rem;
+    }
+
+    .brandLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .testimonials h3 {
+        font-size: .6rem;
+    }
+
+    .testimonials2 h2, h4 {
+        font-size: .9rem;
+    }
+
+    .testimonials2 li {
+        font-size: .8rem;
+    }
+
+    .testimonials2 iframe {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .testimonials1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .socialLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .process1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .processBox p {
+        font-size: .9rem;
+    }
+    .processBox {
+        height: auto;
+        width: auto;
+    }
+    .formInformation {
+        font-size: .7rem;
+    }
+    .mediaLogo {
+        font-size: .7rem;
+    }
+    .processContainer {
+        font-size: .7rem;
+    }
+    .featuresContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
